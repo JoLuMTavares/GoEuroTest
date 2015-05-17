@@ -1,12 +1,12 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Class to keep the information about
+ * each city.
  */
 package goeurotest;
 
 /**
  *
- * @author User
+ * @author João Luís M. Tavares
  */
 public class StadtInfo {
     
