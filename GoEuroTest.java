@@ -22,7 +22,7 @@ import org.json.JSONTokener;
 
 /**
  *
- * @author User
+ * @author João Luís M. Tavares
  */
 public class GoEuroTest {
 
@@ -70,6 +70,7 @@ public class GoEuroTest {
             // Calling now the function above to read the content from the buffer
             String line = readAll(rd);
             
+            // Creating a JSON Tokener to parse the String
             JSONTokener jst = new JSONTokener(line);
             
             
@@ -82,6 +83,7 @@ public class GoEuroTest {
             float latitude = 0;
             float longitude = 0;
             
+            // Using the cicle to get the need information
             while (jst.more()) {
                 String currStr = jst.nextTo("\\:");
                 if (currStr.contains("_id")) {
