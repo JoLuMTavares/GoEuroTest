@@ -2,7 +2,7 @@
  * Class to keep the information about
  * each city.
  */
-package goeurotest;
+package goeuro;
 
 /**
  *
